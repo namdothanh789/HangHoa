@@ -1,4 +1,4 @@
-﻿package company;
+package company;
 
 public abstract class HangHoa {
     protected final String maHang;
@@ -17,9 +17,6 @@ public abstract class HangHoa {
     public int getSoLuongTon() { return soLuongTon; }
     public double getDonGia() { return donGia; }
 
-    public void setTenHang(String tenHang){
-        this.tenHang = tenHang;
-    }
     public void setTenHang(String tenHang) {
         this.tenHang = tenHang;
     }

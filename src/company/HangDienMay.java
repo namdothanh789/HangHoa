@@ -3,7 +3,7 @@ package company;
 public class HangDienMay extends HangHoa{
     private int thoiGianBaoHanh;
     private double congSuat;
-    public HangDienMay(String maHang, String tenHang, int soLuongTon, double donGia, int thoiGianBaoHanh, double congSuat);{
+    public HangDienMay(String maHang, String tenHang, int soLuongTon, double donGia, int thoiGianBaoHanh, double congSuat){
         super(maHang, tenHang, soLuongTon, donGia);
         this.thoiGianBaoHanh = thoiGianBaoHanh;
         this.congSuat = congSuat;
